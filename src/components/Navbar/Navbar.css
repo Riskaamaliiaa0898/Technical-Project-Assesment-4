@@ -1,9 +1,9 @@
 .container-fluid {
   background-color: rgba(248, 105, 10, 0.829);
   font-size: 1.2rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: aliceblue;
 }
-#navbarText {
+.nav-item {
   color: aliceblue;
 }

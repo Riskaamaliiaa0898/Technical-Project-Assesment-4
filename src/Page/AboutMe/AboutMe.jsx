@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Judul from "../../components/Judul Halaman/Judul";
+import Photo from "../../assets/Photo.jpg";
 
 function AboutMe() {
   return (
@@ -14,7 +15,7 @@ function AboutMe() {
         <div className="card mb-3">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://img.freepik.com/free-vector/anime-cute-character_603843-905.jpg?size=338&ext=jpg&ga=GA1.2.329440172.1660900196" className="img-fluid rounded-start" alt="Foto" />
+              <img src={Photo} className="img-fluid rounded-start" alt="Foto" width={"250px"} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
